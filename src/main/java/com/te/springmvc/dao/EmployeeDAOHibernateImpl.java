@@ -13,7 +13,7 @@ import org.springframework.stereotype.Repository;
 import com.te.springmvc.beans.EmployeeBean;
 
 @Repository
-public class EmloyeeDAOHibernateImpl implements EmployeeDAO {
+public class EmployeeDAOHibernateImpl implements EmployeeDAO {
 
 	@Override
 	public EmployeeBean authenticate(int id, String pwd) {
